@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 90vh;
+  background-color: #404040;
+  color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 250px;
+  height: 250px;
+  border: 1px solid tomato;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.info {
+  font-size: 20px;
+  color: rgb(153, 151, 151);
+}
+.code, .btn {
+  padding: 5px 0;
+  border: 1px solid tomato;
+  border-radius: 10px;
+}
+.btn {
+  background-color: tomato;
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(248, 69, 37);  
+}
