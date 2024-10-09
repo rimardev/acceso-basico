@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 .info {
-  font-size: 20px;
+  padding: 20px 0px;
   color: rgb(153, 151, 151);
 }
 .code, .btn {
