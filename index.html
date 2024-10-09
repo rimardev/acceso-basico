@@ -11,7 +11,25 @@
     <h1>Codigo de Acceso</h1>
     <p class="info">Ingrese el codigo</p>
     <input type="text" class="code">
-    <button class="btn">Enviar</button>
+    <button class="btn" onclick="
+      dataInfo = document.querySelector('.info')
+      codigo = document.querySelector('.code')
+      console.log(dataInfo)
+      console.log(codigo.value)
+      if(codigo.value == 'rimar'){
+        dataInfo.innerHTML = 'AUTORIZADO'
+        dataInfo.style.border = '1px solid green'
+        dataInfo.style.borderRadius = '8px'
+        dataInfo.style.backgroundColor = 'green'
+        dataInfo.style.color = 'white'
+      } else {
+        dataInfo.innerHTML = 'DENEGADO'
+        dataInfo.style.border = '1px solid red'
+        dataInfo.style.borderRadius = '8px'
+        dataInfo.style.backgroundColor = 'red'
+        dataInfo.style.color = 'white'
+      }    
+    ">Enviar</button>
   </div>  
   
 </body>
